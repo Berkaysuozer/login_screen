@@ -1,0 +1,56 @@
+*{
+   padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+font-family: montserrat;
+
+}
+nav{
+background: dodgerblue;
+height: 80px;
+width: 100%;
+
+}
+
+label.logo{
+font-size: 35px;
+color:   white;
+line-height: 80px;
+
+
+
+}
+
+nav ul{
+float:right;
+margin-right:20px;
+
+
+}
+
+nav ul li {
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+color:white;
+
+}
+
+a{
+    color:white;
+}
+
+
+a.active,a:hover{
+    background : #1b9bff;
+    border-radius: 3px;
+
+}
+
+
+
