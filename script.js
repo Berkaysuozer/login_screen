@@ -7,12 +7,12 @@ var username = document.getElementById("username").value
 var password = document.getElementById("password").value
 
 if(username == a && password ==b  ){
-    console.log("AFERINN")
+    console.log("Başarıyla giriş yapıldı.")
     window.location = "berkay.html"
 }
 
     else{
-console.log("sie mk")
+console.log("Tekrar deneyiniz")
 window.alert("TEKRAR DENE.!")
 
     }
